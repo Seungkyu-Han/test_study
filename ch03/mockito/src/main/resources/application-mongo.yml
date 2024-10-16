@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://seungkyu:1234@mongo1:27017,mongo2:27018/seungkyu?authSource=admin
+  mongodb:
+    embedded:
+      version: 6.0.1

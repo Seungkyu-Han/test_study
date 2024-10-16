@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/fastcampus
+    username: root
+    password: 1204
+
+  sql:
+    init:
+      mode: always
+      schema-locations: sql/mysql.sql
